@@ -1,0 +1,53 @@
+sensors:
+  camera1:
+    type: advanced_logical_camera
+    pose:
+      xyz: [0.0, 5.0, 2.0]
+      rpy: [0, 0.856688, -0.606711]
+    visualize_fov: true
+
+  camera2:
+    type: advanced_logical_camera
+    pose:
+      xyz: [5.0, 5.0, 2.0]
+      rpy: [-2.465539, 1.201328, 1.328903]
+    visualize_fov: true
+
+  camera3:
+    type: advanced_logical_camera
+    pose:
+      xyz: [5.0, 0.0, 2.0]
+      rpy: [-0.059161, 1.350030, -0.431759]
+    visualize_fov: true
+  
+  camera4:
+    type: advanced_logical_camera
+    pose:
+      xyz: [5.0, -5.0, 2.0]
+      rpy: [-0.540739, 1.116368, -2.949662]
+    visualize_fov: true
+
+  camera5:
+    type: advanced_logical_camera
+    pose:
+      xyz: [0.0, -5.0, 2.0]
+      rpy: [0.0, 1.57, 0]
+    visualize_fov: true
+  camera6:
+    type: advanced_logical_camera
+    pose:
+      xyz: [-5.0, -5.0, 2.0]
+      rpy: [-2.625130, 1.075032, -0.675499]
+    visualize_fov: true
+  camera7:
+    type: advanced_logical_camera
+    pose:
+      xyz: [-5.0, 0.0, 2.0]
+      rpy: [0.0, 1.564896, -0.606612]
+    visualize_fov: true
+  camera8:
+    type: advanced_logical_camera
+    pose:
+      xyz: [-5.0, 5.0, 2.0]
+      rpy: [0.0, 1.564896, -0.606612]
+    visualize_fov: true
